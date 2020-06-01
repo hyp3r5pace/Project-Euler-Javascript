@@ -1,3 +1,8 @@
+/* Code is specifically crafted for problem 3.
+   It will not work for composite numbers which have their
+   largest prime factor as 2 or 3. Loop starts from 5 :/
+*/
+
 "use strict";
 
 function checkPrime(num) {
