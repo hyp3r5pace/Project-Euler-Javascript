@@ -1,3 +1,5 @@
+// Average execution time: 445 ms
+
 "use strict"
 
 function checkPrime(input, list) {
