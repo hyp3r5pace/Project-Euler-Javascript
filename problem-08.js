@@ -22,7 +22,8 @@ function getMaxProduct(inp) {
                 if (counter < 13) {
                     (product *= inp[i]) && counter++;
                 } else {
-                    if (product > max_product) (max_product = product) && (flag = 0);
+                    flag = 0;
+                    if (product > max_product) (max_product = product);
                     product = (product / inp[i-13]) * inp[i];
                     if (product > max_product) max_product = product; 
                 }
