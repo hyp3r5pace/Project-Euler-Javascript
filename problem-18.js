@@ -7,3 +7,6 @@ while (lineLength > 0) {
 }
 
 console.log(num[0]);
+
+// Approach this problem in a bottom up manner. Top - bottom requires to check every path as greedy approach doesn't gurantee a maximum sum path. So, build up the sum of
+// paths from bottom up and at each node, choose the child, which leads to a maximum sum.
