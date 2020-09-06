@@ -13,4 +13,5 @@ function getReducedFactorial() {
     return sum;
 }
 
+
 console.log(parseInt(getReducedFactorial()));
